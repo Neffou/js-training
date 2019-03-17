@@ -8,8 +8,13 @@
  */
 
 // Your code :
-
+const getLength = ([2, 42])
+   { return 42 }
 //* Begin of tests
+
+
+
+
 const assert = require('assert')
 
 assert.strictEqual(getLength([ 2, 42 ]), 2)
