@@ -9,8 +9,8 @@
 
 // Your code :
 const circular = {
-circular : circular
-
+    get circular()
+    { return this}
 
 }
 
