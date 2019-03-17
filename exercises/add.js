@@ -7,6 +7,10 @@
  */
 
 // Your code :
+const add = (rand1, rand2) => {
+    return rand1 + rand2
+}
+
 
 //* Begin of tests
 const assert = require('assert')
