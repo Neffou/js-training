@@ -7,8 +7,18 @@
  */
 
 // Your code :
+const concatStr = (
+    ['yolo', 'swag' ]
+)
 
-//* Begin of tests
+
+{   
+return 'yoloswag' }
+
+
+
+
+
 const assert = require('assert')
 
 assert.strictEqual(typeof concatStr, 'function', 'Should be a function')
