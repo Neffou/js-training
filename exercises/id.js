@@ -8,6 +8,10 @@
 
 // Your code :
 
+const id = (length)=> {
+    return length
+}
+
 //* Begin of tests
 const assert = require('assert')
 
