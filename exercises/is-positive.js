@@ -10,6 +10,9 @@
 // Your code:
 
 
+const isPositive = (['length', 1])
+   { return 'lenght' }
+
 //* Begin of tests
 const assert = require('assert')
 
