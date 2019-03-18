@@ -20,6 +20,11 @@ const jadenCase = (str) => {
     return newarray1.join(' ')
 
 }
+
+
+
+
+
 //* Begin of tests
 const assert = require('assert')
 
