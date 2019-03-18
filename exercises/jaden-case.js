@@ -10,23 +10,20 @@
  *
  */
 
-const jadenCase = (str) => {
-    let arr = str.toLowerCase().split(' ')
-    let newarray1 = []
+// Your code:
 
-    for (let i = 0 ; i < arr.length ; i++) {
-        newarray1.push(arr[i].charAt(0).toUpperCase()+arr[i].slice(1))
+function jadenCase(str) {
+    let str1 = str.split(' ');
+    for (let i = 0; i < str1.length; i++) {
+        let a = str1[i].split('');
+        a[0] = a[0].toUpperCase();
+        str1[i] = a.join('');
     }
-    return newarray1.join(' ')
-
+    str1 = str1.join(' ');
+    return str1;
 }
-
-
-
-
-
 //* Begin of tests
 const assert = require('assert')
-
-assert.fail('You must write your own tests')
+assert.strictEqual(jadenCase('How are you ?'), 'How Are You ?');
+// assert.fail('You must write your own tests')
 // End of tests */

@@ -10,6 +10,18 @@
  */
 
 // Your code :
+function multiply(a, b) {
+    if (!a || !b) {
+        return 0;
+    }
+    if (b - 2 < -1) {
+        return -a + multiply(a, ++b);
+    }
+    if (b > 1) {    
+        return a + multiply(a, --b);
+    }
+    return a;
+}
 
 //* Begin of tests
 const assert = require('assert')
