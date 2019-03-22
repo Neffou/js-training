@@ -10,6 +10,7 @@
  */
 
 // Your code :
+/*
 function multiply(a, b) {
     if (!a || !b) {
         return 0;
